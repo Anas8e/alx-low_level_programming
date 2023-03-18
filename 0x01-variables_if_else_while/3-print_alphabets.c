@@ -1,24 +1,23 @@
 #include <stdio.h>
-
 /**
- * main - prints tha alphabet in lowercase
+ * main - Entry point
  *
- * Return: 0
-*/
-	int main(void)
+ * Return: Always 0 (success)
+ */
 
+int main(void)
+{
+	char i;
+	char j;
+
+	for (i = 'a'; i <= 'z'; i++)
 	{
-		char i;
-		char j;
-
-		for (i = 'a'; i <= 'z'; i++)
-		{
-			putchar(i);
-		}
-		for (j = 'A'; j <= 'Z'; j++)
-                {
-                        putchar(j);
-                }
-		putchar('\n');
-		return (0);
+		putchar(i);
+	}
+	for (j = 'A'; j <= 'Z'; j++)
+	{
+		putchar(j);
+	}
+	putchar('\n');
+	return (0);
 }
