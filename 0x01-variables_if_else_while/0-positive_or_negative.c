@@ -2,11 +2,11 @@
 #include <time.h>
 #include <stdio.h>
 
-/** 
- * main - the main function of the program
+/**
+ * main - Determines if a number is positive, negative or zero
  *
- * Return: always 0
- */
+ * Return: 0
+*/
 int main(void)
 {
 	int n;
